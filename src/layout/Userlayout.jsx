@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
+import Header from '../components/Headers';
+import Footer from '../components/Footers';
 
 function Userlayout() {
     return (
@@ -9,14 +9,14 @@ function Userlayout() {
 
             <div className="mainmainuser">
                 <div className="headermains">
-                    <Header />
+                    <Header/>
                 </div>
                 <div className="portion">
                     <Outlet/>
 
                 </div>
                 <div className="footermains">
-                    <Footer />
+                    <Footer/>
                 </div>
 
             </div>
